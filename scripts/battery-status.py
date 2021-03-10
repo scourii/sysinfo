@@ -11,11 +11,11 @@ icon = ""
 if charging == False:
     if percentage < 20:
         icon = ""
-    elif 20 < percentage < 40:
+    elif 20 <= percentage < 40:
         icon = ""
-    elif 40 < percentage < 70:
+    elif 40 <= percentage < 70:
         icon = ""
-    elif 70 < percentage < 99:
+    elif 70 <= percentage < 99:
         icon = ""
     elif percentage == 100:
         icon = ""
